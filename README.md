@@ -1,2 +1,2 @@
-# automating-aws-python
-Repository for deploying aws using python
+# Automating AWS with Python
+Repository for ASKOSSIVI Project *Automating AWS with  Python*
