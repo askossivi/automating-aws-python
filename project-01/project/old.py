@@ -48,7 +48,7 @@ def list_buckets():
 def list_bucket_objects():
     "List object in se bucket"
 #pass == Place holder
-    for obj in s3.Bucket('awsautomatingaskossivi-boto3').objects.all():
+    for obj in s3.Bucket('bcdadbd').objects.all():
         print(obj)
 
 
