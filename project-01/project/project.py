@@ -47,7 +47,7 @@ def set_bucket(bucket):
 
             CreateBucketConfiguration={'LocationConstraint': session.region_name}
         )
-    except ClientError as e:
+    except ClientError as e:    ##EXCEPTION
         if e.response['Error']['Code'] == 'BucketAlreadyOwnedByYou':
             s3_bucket = s3.Bucket(bucket)
         else:
