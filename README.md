@@ -24,3 +24,4 @@ Project-01/project02 currently has the following features:
 
 - List bucket
 - List contents of a bucket
+- setup new bucket as my new BaaS
